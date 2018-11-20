@@ -62,7 +62,7 @@ const ctx = canvas.getContext('2d');
 const ripples = [];
 
 
-
+// eslint-disable-next-line
 const rippleStartStatus = 'start';
 
 const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
